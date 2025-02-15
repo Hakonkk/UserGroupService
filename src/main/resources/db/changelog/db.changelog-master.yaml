@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/create-table_users.sql.sql
+  - include:
+      file: db/changelog/changes/create-table_group.sql
+  - include:
+      file: db/changelog/changes/create-table_user-group.sql
